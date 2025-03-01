@@ -64,12 +64,12 @@ export default defineConfigWithTheme<ThemeConfig>({
     ],
   ],
   ignoreDeadLinks: true,
-  // 生成站点地图
-  // sitemap: {
-  //   hostname: 'https://vitepress-theme-bluearchive.vercel.app',
-  // },
-  title: "Sensei's 部落格",
-  description: "Sensei's 部落格",
+   生成站点地图
+   sitemap: {
+     hostname: 'https://cxblog.fun',
+   },
+  title: "Cxy's Blog",
+  description: "Cxy's Blog",
   themeConfig: {
     // navBar
     menuList: [
@@ -78,15 +78,15 @@ export default defineConfigWithTheme<ThemeConfig>({
     ],
 
     //banner区配置
-    videoBanner: false,
-    name: "Sensei's 部落格",
-    welcomeText: 'Hello, VitePress',
+    videoBanner: true,
+    name: "Cxy's Blog",
+    welcomeText: 'Hello, Sensei',
     motto: ['和你的日常，就是奇迹', '何気ない日常で、ほんの少しの奇跡を見つける物語。'],
     social: [
-      { icon: 'github', url: 'https://github.com/' },
-      { icon: 'bilibili', url: 'https://www.bilibili.com/' },
-      { icon: 'qq', url: 'https://im.qq.com/index/' },
-      { icon: 'wechat', url: 'https://weixin.qq.com/' },
+      { icon: 'github', url: 'https://github.com/Cxyofficial' },
+      { icon: 'bilibili', url: 'https://space.bilibili.com/495196124' },
+      { icon: 'tw', url: 'https://x.com/cxyofficial?s=09' },
+      { icon: 'netease_music', url: 'http://music.163.com/artist?id=59879419&userid=1379112746' },
     ],
 
     //spine语音配置，可选zh/jp
@@ -96,15 +96,16 @@ export default defineConfigWithTheme<ThemeConfig>({
     footerName: 'Sensei',
     poweredList: [
       { name: 'VitePress', url: 'https://github.com/vuejs/vitepress' },
-      { name: 'GitHub Pages', url: 'https://docs.github.com/zh/pages' },
+      { name: 'Vercel', url: 'https://vercel.com/docs' },
+      { name: 'Clouflare', url: 'https://cloudflare.com' },
     ],
 
     //gitalk配置
-    clientID: 'Ov23lia9U9wFN3WMyoKK',
-    clientSecret: 'b2418ab598c188c43a247c99e728dd2735d58c3b',
-    repo: 'vitepress-theme-bluearchive',
-    owner: 'Alittfre',
-    admin: ['Alittfre'],
+    clientID: 'Ov23li8ADaUIfHmRGFGI',
+    clientSecret: 'ac93ad080df83ee94c55dcd792a9d72c106c3bb8',
+    repo: 'cxblog',
+    owner: 'Cxyofficial',
+    admin: ['Cxyofficial'],
   },
   markdown: {
     theme: 'solarized-dark',
