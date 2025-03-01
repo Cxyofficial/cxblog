@@ -11,4 +11,5 @@ tags: [蔚蓝档案,抽卡,Blue Archive]
 
 老铁们nb啊
 ![这波值了](https://img.picui.cn/free/2024/11/07/672c9a9ea4069.jpg)
+
 !(https://img.picui.cn/free/2024/11/07/672c9af5ef5f8.jpg)
