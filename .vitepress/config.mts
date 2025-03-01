@@ -64,9 +64,9 @@ export default defineConfigWithTheme<ThemeConfig>({
     ],
   ],
   ignoreDeadLinks: true,
-   生成站点地图
-   sitemap: {
-     hostname: 'https://cxblog.fun',
+    //生成站点地图
+  sitemap: {
+    hostname: 'https://cxblog.fun',
    },
   title: "Cxy's Blog",
   description: "Cxy's Blog",
