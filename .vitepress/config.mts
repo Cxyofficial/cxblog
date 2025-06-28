@@ -97,7 +97,7 @@ export default defineConfigWithTheme<ThemeConfig>({
     poweredList: [
       { name: 'VitePress', url: 'https://github.com/vuejs/vitepress' },
       { name: 'Vercel', url: 'https://vercel.com/docs' },
-      { name: 'Clouflare', url: 'https://cloudflare.com' },
+      { name: 'Cloudflare', url: 'https://cloudflare.com' },
     ],
 
     //gitalk配置
